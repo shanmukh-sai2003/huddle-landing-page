@@ -1,0 +1,312 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    margin-top: 75px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.nav-button {
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(321, 100%, 78%);
+    font-size: 1rem;
+    background-color: white;
+    border-style: solid;
+    float: right;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+}
+
+
+.first {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.info p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 400px;
+    height: 75px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 30px;
+}
+
+.info button:hover {
+    cursor: pointer;
+}
+
+.info img {
+    display: block;
+    margin-left: 250px;
+    margin-top: 75px;
+}
+
+.stats {
+    margin-top: 100px;
+}
+.stats-data {
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.stats-data img {
+    float: left;
+    height: 35px;
+}
+
+.stats-data h1 {
+    font-size: 5rem;
+    margin-bottom: 0px;
+}
+
+.stats-data p {
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 15px;
+}
+
+
+.growtogether{
+    margin-top: 100px;
+}
+
+.growtogether .row  {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.growtogether .col1 {
+    display: inline-block;
+    padding-left: 150px;
+    position: relative;
+    bottom: 150px;
+}
+
+.growtogether .col2 {
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 200px;
+
+}
+.growtogether .row .col2 img {
+    height: 400px;
+}
+
+.growtogether .col1 h1 {
+    margin-top: 0px;
+    font-size: 3rem;
+}
+
+.growtogether .col1 p {
+    font-size: 1.25rem;
+}
+.growtogether .bg {
+    width: 100vw;
+    display: block;
+}
+
+.growtogether .row {
+    position: relative;
+}
+
+
+.flowing {
+    margin-top: 200px;
+}
+
+.flowing img {
+    height: 400px;
+}
+
+.flowing .col1 {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.flowing .col2 {
+    display: inline-block;
+    padding-left: 125px;
+    position: relative;
+    bottom: 150px;
+
+}
+
+.flowing .col2 h1 {
+    font-size: 3rem;
+}
+
+.flowing p {
+    font-size: 1.25rem;
+}
+
+
+.users {
+    margin-top: 100px;
+}
+
+.users .row{
+    position: relative;
+    background-color: hsl(207, 100%, 98%);
+    bottom: 10px;
+    padding-top: 25px;
+}
+
+.users .col1 {
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    bottom: 150px;
+}
+
+.users .col2 {
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.users .row img {
+    height: 400px;
+}
+
+.users p {
+    font-size: 1.25rem;
+}
+
+.users .col1 h1 {
+    font-size: 3rem;
+}
+
+.users .bg {
+    width: 100vw;
+}
+
+.users .bg-2 {
+    width: 100vw;
+    position: relative;
+    bottom: 10px;
+}
+
+.last {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.last h1 {
+    margin-bottom: 0px;
+}
+.last button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 400px;
+    height: 75px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 30px;
+}
+
+.last button:hover {
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    margin-top: 150px;
+    background-color: hsl(192, 100%, 9%);
+}
+
+footer img {
+    width: 100vw;
+    background-color: white;
+}
+
+footer .row {
+    position: relative;
+    bottom: 10px;
+    padding-top: 100px;
+    background-color: hsl(192, 100%, 9%);
+}
+
+footer .col1 {
+    color: white;
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    bottom: 45px;
+}
+
+footer .col1 img {
+    width: fit-content;
+    margin-bottom: 15px;
+    filter: brightness(0) invert(1);
+}
+
+footer .col1 table p {
+    padding-left: 10px;
+    position: relative;
+    bottom: 8px;
+}
+
+footer .col1 table {
+    margin-bottom: 50px;
+}
+
+footer .col2 {
+    display: inline-block;
+    padding-left: 400px;
+}
+
+footer .col2 h1 {
+    margin-bottom: 0px;
+    font-size: 2.5rem;
+}
+
+footer input {
+    margin-top: 20px;
+    padding: 0px;
+    border: 0px;
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+footer button {
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-left: 30px;
+}
